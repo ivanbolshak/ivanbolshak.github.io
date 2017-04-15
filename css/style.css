@@ -1,0 +1,493 @@
+/*-------------- Main class --------------*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	/*vertical-align: center;*/
+}
+
+.clearfix
+{
+	clear: both;
+}
+
+.wrapper
+{
+	width: 980px;
+	margin: auto; 
+}
+/*-------------- Header Logo Phone Number --------------*/
+
+.logo_bar
+{
+	padding: 40px 0px;
+}
+
+.logo_div
+{
+	float: left;
+}
+.phone_div
+{
+	float: right;
+	
+}
+
+.phone_div div
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 11px;
+}
+
+.phone_div h4
+{
+	font-size: 14px;
+	font-family: "Arial Regular";
+	color: #000;
+}
+/*-------------- Header Navigation --------------*/
+/*------TODO--- Как то по криворукому, как правильно по ширине сделать? ------------*/
+
+.navbar
+{
+	background: #f2f2f2;
+	/*height: 50px;*/
+}
+
+.nav_menu
+{
+	padding: 17px 0px 12px 0px;
+	/*margin: auto;*/
+}
+
+.nav
+{
+	/*display: inline-block;*/
+	list-style-type: none;
+	margin: auto;
+	/*font-size: 0px;*/
+
+}
+
+.nav li
+{
+	display: inline-block;
+	/*margin: auto;*/
+	padding-right: 138px;
+	/*padding: 0px 19px;*/
+}
+
+.nav li:last-child
+{
+	padding-right: 0px;
+}
+
+
+.nav a
+{
+	font-size: 16px;
+	font-family: "Arial Regular";
+	text-decoration: none;
+	color: #000;
+}
+
+/*--------------------------- Content -------------------*/
+.content
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 697px;
+	padding-top: 17px;
+
+}
+
+.content_nav a
+{
+	display: inline-block;
+	vertical-align: middle;
+	color: #7c7c7c;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: "Arial Regular";
+	/*font-family: "Arial Regular";*/
+}
+
+.content_nav img
+{
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+.content_nav a:first-child
+{
+	text-decoration: underline;
+}
+
+.content_zagolovok
+{
+	display: block;
+	padding-top: 40px;
+	font-family: "Arial Regular";
+	font-size: 28px;
+}
+
+
+
+.content_text
+{	
+	display: block;
+	font-family: "Arial Regular";
+	font-size: 12px;
+	text-align: justify;
+}
+
+.zagolovok_description
+{
+	padding-top: 40px;
+}
+
+.photo_tsentr
+{
+	padding: 16px 0px;
+}
+
+.h3_zagolovok
+{
+	display: block;
+	font-family: "Arial Regular";
+	font-size: 18px;
+	padding: 40px 0px 20px 0;
+}
+
+.text_list
+{	
+	display: block;
+	padding: 17px 0px 0px 0px;
+	list-style: none;
+}
+
+.text_list li
+{
+	display: block;
+	padding: 8px 0px;
+}
+
+.text_list a
+{
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "Arial Regular";
+	font-size: 12px;
+	color: #24b5e1;
+}
+
+.text_list img
+{
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 16px;
+}
+
+.content_line
+{
+	border-top: 1px dotted #000;
+	padding-bottom: 35px;
+	margin-top: 25px
+}
+
+.h4_zagolovok
+{
+	display: block;
+	font-family: "Arial Regular";
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.clock_img_block
+{
+	text-align: center;
+	padding: 16px 0 27px 0;
+}
+
+.clock_img_block img
+{
+	display: inline-block;
+	/*padding-left: 20px;*/
+	/*text-align: center;*/
+}
+
+.clock_img_block img:first-child
+{
+	display: block;
+	float: left;
+}
+
+.clock_img_block img:last-child
+{
+	display: block;
+	float: right;
+}
+
+.list_numbered
+{
+	display: block;
+	padding: 22px 0 25px 12px;
+
+}
+
+.list_numbered li
+{
+	padding: 6px 0px;
+}
+
+.content_data
+{
+	font-family: "Arial Regular";
+	font-size: 11px;
+	text-align: justify;
+    width: inherit;
+    padding-top: 25px;
+}
+
+
+
+.content_data td:last-child
+{
+	text-align: right;
+}
+
+.content_data td:first-child
+{
+	text-align: left;
+}
+
+.content_data th,td
+{
+	/*display: inline-block;*/
+	/*background-color: #fff;*/
+	color: #7d7d7d;
+	text-decoration: none;
+	padding: 10px 0px;
+
+}
+
+.content_data tbody tr:nth-child(2n+1)
+{
+	background-color: #f9f9f9;
+}
+
+/*-------------------- Tab ------------------------*/
+
+.tabs_block
+{
+	padding-top: 30px;
+}
+
+.tab_button_1, .tab_button_2
+{
+	display: inline-block;
+/*	border: 1px solid #000;
+*/	border-radius: 4px 4px 0 0 ;
+	padding: 12px;
+	text-decoration: none;
+	font-family: "Arial Regular";
+	font-size: 12px;
+}
+
+.tab_button_1
+{
+	background-color: #24b6e2;
+	color: #fff;
+}
+
+.tab_button_2
+{
+	background-color: #e9e9e9;
+	color: #000;
+}
+
+.window_tab_text
+{
+	display: block;
+	border-top: 1px solid #24b6e2;
+	/*border-bottom: 1px dotted #000;*/
+	padding: 20px 0 80px 0;
+}
+
+
+
+
+/*--------------------------- Side bar-------------------*/
+
+.sidebar
+{
+	display: block;
+	float: right;
+}
+
+.sidebar_inside
+{
+	width: 235px;
+}
+
+
+/*-------- search_bar---------*/
+.search_bar
+{
+	width: 228px;
+	height: 23px;
+	border: 1px solid #c8c8c8;
+	border-radius: 4px;
+	margin: 78px 0 36px 0;
+}
+
+.input_search_bar
+{
+	padding-left: 15px;
+	width: 185px;
+	height: 21px;
+	border: none;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.input_search_bar:focus
+{
+	outline: none;
+}
+
+.search_icon
+{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background: url(../img/search_img.png);
+	vertical-align: top;
+	margin: 5px 0 0 5px;
+}
+
+/*-------- search_bar END---------*/
+ /*--------- news block -----------*/
+.h2_zagolovok
+{
+	display: block;
+	font-family: "Arial Regular";
+	font-size: 22px;
+}
+
+.sidebar_news_block
+{
+	display: block;
+	border-bottom: 1px dotted black;
+}
+
+.sidebar_news_link
+{
+	color: #24b5e1;	
+	padding: 20px 0 10px 0;
+
+}
+
+.sidebar_news_date
+{
+	color: #969696;
+}
+
+.sidebar_news_text
+{
+	display: inline-flex;
+	font-family: "Arial Regular";
+	font-size: 12px;
+	padding: 15px 0 20px 0;
+	text-align: justify;
+}
+
+.sidebar_all_news_button
+{
+	display: block;
+	float: right;
+	background-color: #e9e9e9;
+	border-radius: 3px;
+
+	padding: 9px 15px;
+	margin-top: 22px;
+
+	font-family: "Arial Regular";
+	font-size: 12px;
+	color: #000;
+	text-decoration:none;
+}
+
+.sidebar_subscribe_block
+{
+	margin-top: 44px;
+}
+
+
+.sidebar_subscribe_input_block
+{
+	margin: 18px 0;
+}
+
+.sidebar_subscribe_input_block input
+{
+	border-radius: 3px;
+	/*margin: 7px 0;*/
+	/*height: 25px;*/
+	border-style: none;
+	margin-left: 10px;
+	font-family: "Arial Regular";
+	font-size: 11px;
+}
+
+.sidebar_subscribe_input_block input:focus
+{
+	outline: none;
+}
+
+
+.sidebar_subscribe_input_block div
+{
+	border: 1px solid #c8c8c8;
+	border-radius: 4px;
+	padding: 6px 0;
+	margin-bottom: 15px;
+}
+
+.footer
+{
+	padding: 22px 0 40px 0;
+	border-top: 1px dotted #000;
+}
+
+.footer_copyright
+{
+	padding-top: 10px;
+	display: block;
+	float: left;
+}
+
+.footer_copyright a
+{
+	color: #24b5e1;
+}
+
+.footer_soc
+{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
